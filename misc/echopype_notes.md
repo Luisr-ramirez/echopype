@@ -3,7 +3,7 @@
     - make a new generic filename matcher to get file date and time
     - use default logging module to replace call to `log`
     - need to deal with `InstrumentDataException` part -- learn how to write error-exception stuff
-- Start reading `zplsc_b.py` and `zplsc_echogram.py` to see waht can be stripped offset
+- Start reading `zplsc_b.py` and `zplsc_echogram.py` to see what can be stripped offset
 - function `read_header` gives `config_header` and `config_transducer`
 - don't need `ZplscBParticleKey.ECHOGRAM_PATH`, can also take out anything with `relpath`
 - need to change `from datetime import datetime` to `from datetime import datetime as dt` and replace all `datetime` to `dt` in the code
